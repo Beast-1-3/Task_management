@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://t-m-backend.onrender.com",
+  baseURL: "https://tmbackend-0pku.onrender.com/",
 });
 export default api;

@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body
-{
-  font-family: "Roboto", sans-serif;
+/* Global defaults */
+body {
+  @apply bg-background text-dark font-sans;
+}
+
+a {
+  @apply text-primary hover:underline;
+}
+
+button {
+  @apply px-4 py-2 rounded-lg bg-primary text-white hover:bg-blue-600 transition-all duration-300;
 }

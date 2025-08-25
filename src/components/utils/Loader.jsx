@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Loader = () => {
   return (
-    <>
-      <div className='w-8 h-8 my-8 mx-auto'>
-        <div className="w-full h-full rounded-full border-[3px] border-indigo-600 border-b-transparent animate-loader"></div>
-      </div>
-    </>
-  )
-}
+    <div className="flex justify-center items-center my-8">
+      <div className="w-10 h-10 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
+    </div>
+  );
+};
 
-export default Loader
+export default Loader;
